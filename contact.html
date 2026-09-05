@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Benjamin Legacy Group</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <nav class="site-nav">
+    <div class="nav-row">
+      <a href="index.html" class="brand-mark">
+        <img src="images/logo-small.jpg" alt="Benjamin Legacy Group mark">
+        <span>BENJAMIN&nbsp;LEGACY&nbsp;GROUP</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="has-dropdown">
+          <a href="services.html">Services</a>
+          <ul class="dropdown">
+            <li><a href="deed-prep.html">Deed Preparation</a></li>
+            <li><a href="deal-sourcing.html">Deal Sourcing</a></li>
+          </ul>
+        </li>
+        <li><a href="mentoring.html">Mentoring</a></li>
+        <li><a href="jv.html">JV Partnerships</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="on-dark" id="contact" style="padding-top:76px;">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <div class="tag"
+          style="font-size:0.78rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--gold); margin-bottom:16px;">
+          Get In Touch
+        </div>
+
+        <h3>Let's talk about your next move.</h3>
+
+        <p>
+          Whether you're exploring mentoring, a JV opportunity, deed preparation, or deal sourcing — reach out and we'll
+          follow up personally.
+        </p>
+
+        <div class="contact-line">
+          <span class="label">Email</span>
+          <a href="mailto:benjaminlegacygroup25@gmail.com">benjaminlegacygroup25@gmail.com</a>
+        </div>
+
+        <div class="contact-line">
+          <span class="label">Phone</span>
+          <a href="tel:+19547806028">(954) 780-6028</a>
+        </div>
+
+        <div class="contact-line">
+          <span class="label">Reach</span>
+          Based in Florida &bull; Serving Investors Nationwide
+        </div>
+      </div>
+
+
+      <form
+  class="contact-form"
+  id="contactForm"
+  action="https://formspree.io/f/moqryjjy"
+  method="POST"
+>
+  <div class="field">
+    <label for="name">Name</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Your full name"
+      autocomplete="name"
+      required
+    >
+  </div>
+
+  <div class="field">
+    <label for="email">Email</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="you@email.com"
+      autocomplete="email"
+      required
+    >
+  </div>
+
+  <div class="field">
+    <label for="interest">Area of Interest</label>
+    <select id="interest" name="interest">
+      <option value="General Inquiry">General Inquiry</option>
+      <option value="Mentoring">Mentoring</option>
+      <option value="JV Partnership">JV Partnership</option>
+      <option value="Deed Preparation">Deed Preparation</option>
+      <option value="Deal Sourcing">Deal Sourcing</option>
+    </select>
+  </div>
+
+  <div class="field">
+    <label for="message">Message</label>
+    <textarea
+      id="message"
+      name="message"
+      placeholder="Tell us a bit about what you're looking for"
+      required
+    ></textarea>
+  </div>
+
+  <!-- Formspree settings -->
+  <input type="hidden" name="_subject" value="New Contact Form Submission">
+  <input type="hidden" name="_replyto" id="replyTo">
+
+  <button
+    type="submit"
+    class="btn btn-gold"
+    id="submitButton"
+    style="justify-self:start;"
+  >
+    Send Message
+  </button>
+
+  <p
+    id="formNote"
+    class="form-success"
+    style="display:none;"
+  >
+    Thank you — your message has been sent successfully. We'll be in touch soon.
+  </p>
+</form>
+
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="images/logo-small.jpg" alt="Benjamin Legacy Group mark">
+          <div class="footer-brand-text">
+            <div class="name">BENJAMIN LEGACY GROUP</div>
+            <div class="tag">Building Legacy Through Real Estate</div>
+          </div>
+        </div>
+        <ul class="footer-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="mentoring.html">Mentoring</a></li>
+          <li><a href="jv.html">JV Partnerships</a></li>
+          <li><a href="deed-prep.html">Deed Preparation</a></li>
+          <li><a href="deal-sourcing.html">Deal Sourcing</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Benjamin Legacy Group. All rights reserved.</span>
+        <span class="services-line">Tax Deed Investing · Mentoring · JV Opportunities · Deed Preparation · Deal
+          Sourcing</span>
+      </div>
+    </div>
+  </footer>
+
+
+
+<script>
+  // Js script for Form submission
+  const contactForm = document.getElementById("contactForm");
+  const formNote = document.getElementById("formNote");
+  const submitButton = document.getElementById("submitButton");
+  const replyTo = document.getElementById("replyTo");
+
+  contactForm.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    // Put visitor's email into Formspree's reply-to field
+    replyTo.value = document.getElementById("email").value;
+
+    submitButton.disabled = true;
+    submitButton.textContent = "Sending...";
+
+    try {
+      const formData = new FormData(contactForm);
+
+      const response = await fetch(contactForm.action, {
+        method: "POST",
+        body: formData,
+        headers: {
+          "Accept": "application/json"
+        }
+      });
+
+      if (response.ok) {
+        contactForm.reset();
+
+        formNote.textContent =
+          "Thank you — your message has been sent successfully. We'll be in touch soon.";
+
+        formNote.style.display = "block";
+      } else {
+        formNote.textContent =
+          "Sorry, something went wrong. Please try again.";
+
+        formNote.style.display = "block";
+      }
+    } catch (error) {
+      formNote.textContent =
+        "Sorry, something went wrong. Please try again.";
+
+      formNote.style.display = "block";
+    }
+
+    submitButton.disabled = false;
+    submitButton.textContent = "Send Message";
+  });
+</script>
+
+
+
+
+
+  <script src="nav.js"></script>
+  <script>
+    // Preset the "Area of Interest" field when arriving from a service page link
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      const interest = params.get('interest');
+      const select = document.getElementById('interest');
+      if (interest && select) {
+        const match = Array.from(select.options).find(o => o.value === interest || o.textContent === interest);
+        if (match) select.value = match.value || match.textContent;
+      }
+    })();
+
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      this.reset();
+      document.getElementById('formNote').classList.add('visible');
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>
